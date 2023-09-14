@@ -37,7 +37,7 @@ const Login = () => {
     .then(result => {
       console.log(result);
       if(result.data==="Success"){
-      history("/");
+      history("/Home");
       }else{
         alert("Plz Enter correct email or Password");
       }
